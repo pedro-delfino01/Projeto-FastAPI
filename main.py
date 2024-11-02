@@ -1,7 +1,5 @@
 from fastapi import FastAPI
-
-import app.routes.import_file
-from app.routes import init_routes
+from routes import init_routes
 
 app = FastAPI()
 
