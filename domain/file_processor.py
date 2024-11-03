@@ -34,7 +34,7 @@ class FileProcessor:
                                                                                                 "validados.")
                         else:
                             print(row)
-                            #self.api_client.send_data(row)
+                            self.api_client.send_data(row)
 
                     else:
                         raise HTTPException(status_code=status.HTTP_400_BAD_REQUEST, detail="Mês "
